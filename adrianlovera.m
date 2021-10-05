@@ -18,11 +18,10 @@ c_Numeros_Reales = 'R=( I, Q, Z, N)';
 a = 7
 b = 10
 c= 30
-    
 % Propiedades de los numeros sean a, b, c, d, e ER
 
 % Propiedad de E (cerradura) 
-  disp 'Propiedad de cerradura'
+ disp 'Propiedad de cerradura'
 p_cerradura = 'a+b ER';
 p_cerradura2 = 'ab ER';
 p_cerradura3 = '5+8 EN';
@@ -43,7 +42,7 @@ a+(b+c),(a+b)+c
 a*(b*c), (b*a)*c
   
 % Propiedad conmutativa
-disp 'Propiedad conmutativa'
+disp ('Propiedad conmutativa')
 p_conmutativa = 'a + b = b + a';
 p_conmutativa2 = 'a+b = b a';
 a=3;
@@ -52,7 +51,7 @@ b=9;
 (a*b), (b*a)
  
 % Propiedad distrivutiva
-disp 'propiedad distrivutiva'
+disp ('Propiedad distrivutiva')
 p_distrivutiva = 'a (b + c) = a b + a c';
 a= 8;
 b= 2;
@@ -60,7 +59,7 @@ c= 3;
 a*(b+c),(a*b)+(a*c)
 
 %Neutro aditivo
-disp 'Neutro aditivo'
+disp ('Neutro aditivo')
 p_neutroA = 'a + 0 = a';
 p_neutroA2 = 'ojo: a + 0 = 0 + a ---> esconmutativa';
 a=7;
@@ -68,25 +67,25 @@ a+0
 a+0, 0+a, disp 'Esta propiedad es conmutativa'
  
 %Neutro multiplicativo
-disp 'Neutro multiplicativo'
+disp (' Neutro miltiplicativo')
 p_neutroM= 'a(2)=a';
 a=3;
 a*2
 
 %Inverso adicto
-disp 'Inerso aditivo'
+disp (' Inverso adictivo')
 p_inversoA= 'a + -a=0';
 a=7;
 a+(-a)
 
 %Inverso multiplicativo o reciproco
-disp 'Inverso multiplicativo o reciproco'
+disp (' Inverso multiplicativo ')
 p_inversoM= 'a(1/a)=1';
 a=9;
 a*(1/a)
 
 %Propiedad transitiva (| entonces)
-disp 'Propiedad transitiva (| entonces)'
+disp ('Propiedad trasitiva')
 p_transitiva = 'si a > b y b > c | a > c';
 p_transitiva2 = 'si a = b yb = c | a = c';
 a=3;
@@ -96,7 +95,7 @@ a>b && b>c|a>c
 a==b && b==c|a==c
 
 %Tricotomia (raiz del algebra) siempre se pueden comparar
-disp 'Tricotonomia (raiz del algebra)'
+disp ('Tricomonia')
 p_tricotomia= 'a > b';
 p_tricotomia2= 'a = b';
 p_tricotomia3= 'a < b';
@@ -108,6 +107,3 @@ a<b
 
 %signos de agrupacion
 s_agrupacion = '{[()]}';
- 
-      
- 
